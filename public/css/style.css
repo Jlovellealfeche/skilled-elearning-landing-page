@@ -1,6 +1,31 @@
+/*font face*/
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 /*Priamry Colors*/
 /*Neutral Colors*/
 /*Dark Colors*/
 /*Gradients*/
 /*Orange Pink gradient*/
-/*Blue Pink gradient*/ 
+/*Blue Pink gradient*/
+button {
+  border: none;
+  border-radius: 2rem;
+  text-decoration: none;
+  width: 167px;
+  height: 56px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+}
+body p {
+  color: hsl(232, 10%, 56%);
+}

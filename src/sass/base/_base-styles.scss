@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    font-family: $fontfamily-plusjakartasans;
+    font-size: 18px;
+
+    p {
+        color: $neutral-gray;
+    }
+}
