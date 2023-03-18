@@ -9,3 +9,23 @@ button {
     font-family: $fontfamily-plusjakartasans;
     font-weight: bold;
 }
+
+.nav-btn {
+    color:$primary-white;
+    background-color: $dark-blue;
+}
+
+.banner-btn {
+    color:$primary-white;
+    background-image: linear-gradient($gradientcolor-orange, $gradientcolor-darkpink);
+}
+
+.section-btn {
+    color: $dark-pinkmagenta;
+    background-color: transparent;
+}
+
+.footer-btn {
+    color: $primary-white;
+    background-image: linear-gradient($gradientcolor-blue, $gradientcolor-darkpink);
+}
