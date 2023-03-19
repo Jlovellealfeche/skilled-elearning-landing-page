@@ -11,5 +11,11 @@ body {
 
     p {
         color: $neutral-gray;
+        padding:1.5rem;
     }
+}
+
+h2 {
+    color:$primary-white;
+    background-image: linear-gradient($gradientcolor-orange, $gradientcolor-darkpink);
 }

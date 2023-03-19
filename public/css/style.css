@@ -50,4 +50,10 @@ body {
 }
 body p {
   color: hsl(232, 10%, 56%);
+  padding: 1.5rem;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
 }
