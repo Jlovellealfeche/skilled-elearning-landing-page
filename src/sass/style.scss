@@ -1,5 +1,5 @@
-@forward './abstracts/index';
+@use "abstracts";
 
-@import './components/buttons';
+@use "base";
 
-@import './base/base-styles';
+@use "components";
