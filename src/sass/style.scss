@@ -1,5 +1,5 @@
-@use "abstracts";
+@import './abstracts/colors';
 
-@use "base";
+@import './base/base-styles';
 
-@use "components";
+@import './components/buttons';
