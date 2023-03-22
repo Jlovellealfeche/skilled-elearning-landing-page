@@ -23,6 +23,10 @@ body p {
   padding: 1.5rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 h2 {
   color: hsl(0deg, 0%, 100%);
   background-image: linear-gradient(hsl(13deg, 100%, 64%), hsl(322deg, 87%, 55%));
@@ -41,6 +45,8 @@ button {
 .nav-btn {
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(233deg, 54%, 16%);
+  max-height: 3rem;
+  max-width: 9.25rem;
 }
 
 .banner-btn {
@@ -57,4 +63,18 @@ button {
   color: hsl(0deg, 0%, 100%);
   background-image: linear-gradient(hsl(237deg, 100%, 64%), hsl(322deg, 87%, 55%));
 }
+
+header {
+  padding: 1rem;
+}
+
+.top-nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
+@impo;
 /*# sourceMappingURL=style.css.map */
