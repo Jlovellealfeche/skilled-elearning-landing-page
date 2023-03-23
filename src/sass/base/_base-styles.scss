@@ -26,4 +26,10 @@ main {
 h2 {
     color:$primary-white;
     background-image: linear-gradient($gradientcolor-orange, $gradientcolor-darkpink);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+section {
+    padding: 1rem;
 }

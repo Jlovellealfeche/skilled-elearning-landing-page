@@ -34,6 +34,12 @@ main {
 h2 {
   color: hsl(0, 0%, 100%);
   background-image: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+section {
+  padding: 1rem;
 }
 
 button {
