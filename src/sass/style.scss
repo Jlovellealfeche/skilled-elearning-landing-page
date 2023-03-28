@@ -1,10 +1,7 @@
-@import './abstracts/index';
+@use 'abstracts/index';
 
-@import './base/base-styles';
+@use 'base/index';
 
-@import './components/buttons';
+@use 'components/index';
 
 
-@import './components/nav';
-
-@import './components/header';
