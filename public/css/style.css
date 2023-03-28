@@ -7,6 +7,7 @@
 /*Orange Pink gradient*/
 /*Blue Pink gradient*/
 /*Linear gradient background fill*/
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 * {
   box-sizing: border-box;
   margin: unset;
@@ -45,6 +46,14 @@ section {
   margin: 2rem auto;
 }
 
+/*font face*/
+/*Priamry Colors*/
+/*Neutral Colors*/
+/*Dark Colors*/
+/*Gradients*/
+/*Orange Pink gradient*/
+/*Blue Pink gradient*/
+/*Linear gradient background fill*/
 button {
   border: none;
   border-radius: 2rem;
