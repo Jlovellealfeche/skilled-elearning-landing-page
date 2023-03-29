@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*font face*/
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 /*Priamry Colors*/
@@ -7,6 +8,11 @@
 /*Orange Pink gradient*/
 /*Blue Pink gradient*/
 /*Linear gradient background fill*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .banner .img {
+    background-image: url(C:UsersjloveOneDriveÞsktop\c ode-projectsskilled-elearning-landing-pagesrc\a ssetsimage-hero-tablet@2x.png);
+  }
+}
 button {
   border: none;
   border-radius: 2rem;
