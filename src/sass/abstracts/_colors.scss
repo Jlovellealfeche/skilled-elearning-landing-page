@@ -1,8 +1,3 @@
-/*font face*/
-
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
-
-$fontfamily-plusjakartasans: "Plus Jakarta Sans", sans-serif;
 
 /*Priamry Colors*/
 $primary-white: hsl(0, 0%, 100%);
@@ -30,4 +25,4 @@ $gradientcolor-darkpink: hsl(322, 87%,55%);
 
 /*Linear gradient background fill*/
 
-$light-whitishblue: hsl(232, 88, 97, 100%);
+$light-whitishblue: hsl(232, 88, 97%, 100%);
