@@ -30,7 +30,10 @@ h2 {
     color:a.$primary-white;
     background-image: linear-gradient(a.$gradientcolor-orange, a.$gradientcolor-darkpink);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem 1rem;
+    max-height: 9rem;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 section {

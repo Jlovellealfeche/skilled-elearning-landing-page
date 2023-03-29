@@ -37,14 +37,16 @@ button {
   background-image: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
 }
 
-header {
-  padding: 1rem;
-}
-
 .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
+  max-height: 2rem;
+}
+
+header {
+  padding: 1rem;
 }
 
 h1 {
@@ -83,7 +85,10 @@ h2 {
   color: hsl(0, 0%, 100%);
   background-image: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.5rem 1rem;
+  max-height: 9rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 section {
