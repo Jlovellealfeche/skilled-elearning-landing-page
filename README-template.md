@@ -75,6 +75,46 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ```
 
+*** <b>Notes on usage of @use and @forward in sass partials </b> *** 
+
+### Folder name Sass
+
+  ||--<b>Abstract</b>--- _index.scss-->
+  ```
+   @forward './colors'; 
+   @forward './breakpoints';
+   @forwards './mixins';
+  ```
+
+  ||--<b>base</b>---_index.scss--> 
+  ```
+  
+  @forward './base-styles'; 
+  
+  ```
+            |--- _index.scss 
+
+              ```
+                  @forward './base-styles';
+              ```
+
+            |--- _base-styles.scss --> 
+  
+                ```
+                  @use '../abstracts' as a; 
+
+                  @use '../components' as c; 
+                ```  
+
+  ||--<b>components</b>
+  |
+  |
+
+  ||<b>style.scss</b>----
+    
+      @use 'abstracts';
+      @use 'base';
+      @use 'components';
 
 
 
