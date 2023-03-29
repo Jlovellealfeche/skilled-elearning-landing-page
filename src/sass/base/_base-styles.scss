@@ -1,4 +1,5 @@
-@use '../abstracts' as *;
+@use '../abstracts' as a;
+@use '../components' as c;
 
 * {
     box-sizing: border-box;
@@ -7,12 +8,12 @@
 }
 
 body {
-    font-family: $fontfamily-plusjakartasans;
+    font-family: a.$fontfamily-plusjakartasans;
     font-size: 18px;
-    background-image: linear-gradient($primary-white, $light-whitishblue);
+    background-image: linear-gradient(a.$primary-white, a.$light-whitishblue);
     
     p {
-        color: $neutral-gray;
+        color: a.$neutral-gray;
         padding: 1rem 0;
     }
 }
@@ -26,14 +27,14 @@ main {
 }
 
 h2 {
-    color:$primary-white;
-    background-image: linear-gradient($gradientcolor-orange, $gradientcolor-darkpink);
+    color:a.$primary-white;
+    background-image: linear-gradient(a.$gradientcolor-orange, a.$gradientcolor-darkpink);
     border-radius: 1rem;
     padding: 2rem;
 }
 
 section {
-    background-color: $primary-white;
+    background-color: a.$primary-white;
     border-radius: 1rem;
     padding: 1rem;
     margin: 2rem auto;

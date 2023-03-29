@@ -1,4 +1,4 @@
-@use '../abstracts' as abstr;
+@use '../abstracts' as a;
 
 button {
     border: none;
@@ -6,28 +6,28 @@ button {
     text-decoration: none;
     width: 167px;
     height: 56px;
-    font-family: $fontfamily-plusjakartasans;
+    font-family: a.$fontfamily-plusjakartasans;
     font-weight: bold;
 }
 
 .nav-btn {
-    color:$primary-white;
-    background-color: $dark-blue;
+    color: a.$primary-white;
+    background-color: a.$dark-blue;
     max-height: 3rem;
     max-width: 9.25rem;
 }
 
 .banner-btn {
-    color:$primary-white;
-    background-image: linear-gradient($gradientcolor-orange, $gradientcolor-darkpink);
+    color: a.$primary-white;
+    background-image: linear-gradient(a.$gradientcolor-orange, a.$gradientcolor-darkpink);
 }
 
 .section-btn {
-    color: $dark-pinkmagenta;
+    color: a.$dark-pinkmagenta;
     background-color: transparent;
 }
 
 .footer-btn {
-    color: $primary-white;
-    background-image: linear-gradient($gradientcolor-blue, $gradientcolor-darkpink);
+    color: a.$primary-white;
+    background-image: linear-gradient(a.$gradientcolor-blue, a.$gradientcolor-darkpink);
 }
