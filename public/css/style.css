@@ -42,11 +42,6 @@
   .banner {
     min-width: 60vw;
   }
-  .banner #main-img {
-    padding-right: 6rem;
-    padding-bottom: 9rem;
-    overflow: hidden;
-  }
 }
 button {
   border: none;
