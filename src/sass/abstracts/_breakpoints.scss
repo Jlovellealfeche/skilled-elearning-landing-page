@@ -38,10 +38,20 @@
         }
 
     }
-    #main-img {
-        padding-left: 4rem;
-        padding-bottom: 4rem;
+    .banner {
+        // display: grid;
+        // grid-template-rows: 6rem 1rem 5rem 1rem 3rem;
+        // grid-template-columns: 8rem 4rem 9rem;
+        min-width: 60vw;
+        #main-img {
+            // grid-row: 1 / 6 ;
+            // grid-column: 1 / 4;
+            padding-right: 6rem;
+            padding-bottom: 9rem;
+            overflow: hidden;
+           }
     }
+    
    
 }
 
