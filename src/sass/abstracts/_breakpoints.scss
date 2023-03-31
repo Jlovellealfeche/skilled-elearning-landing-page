@@ -64,11 +64,27 @@
         }
 
         .crypto ,
-         .business {
+        .business {
             grid-row: 4 / 5;
         }
     }
-   
+
+    div h2 {
+        max-width: 21rem;
+        max-height: 17rem;
+        margin-top: 2rem;
+        padding: 3.5rem 1.3rem 8.5rem;
+      }
+    
+    .animation,
+    .design,
+    .photography,
+    .crypto,
+    .business {
+        margin: 1rem auto;
+    }
+
+
 }
 
 @media screen and (min-width: 1024px) {
