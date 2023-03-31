@@ -44,6 +44,24 @@
     width: 640.71px;
     translate: 22rem -8rem;
   }
+  .section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6rem 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+  .section-container div.ad-text,
+  .section-container .animation {
+    grid-row: 2/3;
+  }
+  .section-container .design,
+  .section-container .photography {
+    grid-row: 3/4;
+  }
+  .section-container .crypto,
+  .section-container .business {
+    grid-row: 4/5;
+  }
 }
 button {
   border: none;
