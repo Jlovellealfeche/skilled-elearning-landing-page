@@ -92,6 +92,33 @@
     width: 640.71px;
     translate: 33rem -10rem;
   }
+  .section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6rem 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 8.75rem 9.5rem;
+  }
+  .section-container div.ad-text,
+  .section-container .animation,
+  .section-container .design {
+    grid-row: 2/3;
+  }
+  .section-container .photography,
+  .section-container .crypto,
+  .section-container .business {
+    grid-row: 3/4;
+  }
+  .section-container .ad-text,
+  .section-container .animation,
+  .section-container .design,
+  .section-container .photography,
+  .section-container .crypto,
+  .section-container .business {
+    margin: 1rem auto;
+    max-width: 21.8rem;
+    max-height: 21.8rem;
+  }
 }
 button {
   border: none;

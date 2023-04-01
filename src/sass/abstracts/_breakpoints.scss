@@ -102,10 +102,43 @@
         grid-gap: 1rem;
         }
 
-        .banner {
-        
-            position: absolute;
-            width: 640.71px;
-            translate: 33rem -10rem;
+    .banner {
+        position: absolute;
+        width: 640.71px;
+        translate: 33rem -10rem;
         }
+
+
+    .section-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 6rem 1fr 1fr;
+        grid-gap: 2rem;
+        padding: 8.75rem 9.5rem;
+        
+        div.ad-text,
+        .animation, 
+        .design {
+            grid-row: 2 / 3;
+
+        }
+
+        .photography,
+        .crypto,
+        .business {
+            grid-row: 3 / 4;
+        }
+        .ad-text,
+        .animation,
+        .design,
+        .photography,
+        .crypto,
+        .business {
+        margin: 1rem auto;
+        max-width: 21.8rem;
+        max-height: 21.8rem;
+       }
+    }
+
+    
 }
