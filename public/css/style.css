@@ -92,12 +92,15 @@
     width: 640.71px;
     translate: 33rem -10rem;
   }
+  main {
+    padding: 0;
+  }
   .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 6rem 1fr 1fr;
     grid-gap: 2rem;
-    padding: 8.75rem 9.5rem;
+    padding: 6.75rem 5rem;
   }
   .section-container div.ad-text,
   .section-container .animation,
