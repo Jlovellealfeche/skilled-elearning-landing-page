@@ -51,15 +51,15 @@
     grid-gap: 1.5rem;
   }
   .section-container div.ad-text,
-.section-container .animation {
+  .section-container .animation {
     grid-row: 2/3;
   }
   .section-container .design,
-.section-container .photography {
+  .section-container .photography {
     grid-row: 3/4;
   }
   .section-container .crypto,
-.section-container .business {
+  .section-container .business {
     grid-row: 4/5;
   }
   div h2 {
@@ -69,10 +69,10 @@
     padding: 3.5rem 1.3rem 8.5rem;
   }
   .animation,
-.design,
-.photography,
-.crypto,
-.business {
+  .design,
+  .photography,
+  .crypto,
+  .business {
     margin: 1rem auto;
   }
 }
@@ -128,20 +128,20 @@
     padding: 3.75rem 5rem;
   }
   .section-container div.ad-text,
-.section-container .animation,
-.section-container .design {
+  .section-container .animation,
+  .section-container .design {
     grid-row: 2/3;
   }
   .section-container .photography,
-.section-container .crypto,
-.section-container .business {
+  .section-container .crypto,
+  .section-container .business {
     grid-row: 3/4;
   }
   .section-container .animation,
-.section-container .design,
-.section-container .photography,
-.section-container .crypto,
-.section-container .business {
+  .section-container .design,
+  .section-container .photography,
+  .section-container .crypto,
+  .section-container .business {
     margin: 1rem auto;
     max-width: 21.8rem;
     max-height: 21.8rem;
@@ -167,23 +167,23 @@ button {
 }
 
 .nav-btn {
-  color: hsl(0deg, 0%, 100%);
-  background-color: hsl(233deg, 54%, 16%);
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(233, 54%, 16%);
 }
 
 .banner-btn {
-  color: hsl(0deg, 0%, 100%);
-  background-image: linear-gradient(hsl(13deg, 100%, 64%), hsl(322deg, 87%, 55%));
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
 }
 
 .section-btn {
-  color: hsl(341deg, 92%, 62%);
+  color: hsl(341, 92%, 62%);
   background-color: transparent;
 }
 
 .footer-btn {
-  color: hsl(0deg, 0%, 100%);
-  background-image: linear-gradient(hsl(237deg, 100%, 64%), hsl(322deg, 87%, 55%));
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
 }
 
 .top-nav {
@@ -214,11 +214,11 @@ p {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
-  background-image: linear-gradient(hsl(0deg, 0%, 100%), hsl(232deg, 88%, 97%));
+  background-image: linear-gradient(hsl(0, 0%, 100%), hsl(232, 88%, 97%));
   overflow-x: hidden;
 }
 body p {
-  color: hsl(232deg, 10%, 56%);
+  color: hsl(232, 10%, 56%);
   padding: 1rem 0;
 }
 
@@ -231,8 +231,8 @@ main {
 }
 
 h2 {
-  color: hsl(0deg, 0%, 100%);
-  background-image: linear-gradient(hsl(13deg, 100%, 64%), hsl(322deg, 87%, 55%));
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
   border-radius: 1rem;
   padding: 1.5rem 1rem;
   max-height: 9rem;
@@ -241,18 +241,17 @@ h2 {
 }
 
 section {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
   padding: 1rem;
   margin: 2rem auto;
 }
 
 .main-footer {
-  background-color: hsl(233deg, 54%, 16%);
+  background-color: hsl(233, 54%, 16%);
   max-height: 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
