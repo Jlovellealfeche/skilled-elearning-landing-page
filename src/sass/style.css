@@ -50,7 +50,7 @@
     grid-template-rows: 6rem 1fr 1fr 1fr;
     grid-gap: 1.5rem;
   }
-  .section-container section h2,
+  .section-container div h2,
   .section-container .animation {
     grid-row: 2/3;
   }
@@ -62,7 +62,7 @@
   .section-container .business {
     grid-row: 4/5;
   }
-  section h2 {
+  div h2 {
     max-width: 21rem;
     max-height: 17rem;
     margin-top: 1.2rem;
@@ -128,7 +128,7 @@
     grid-gap: 2rem;
     padding: 3.75rem 5rem;
   }
-  .section-container di section.ad-text,
+  .section-container div.ad-text,
   .section-container .animation,
   .section-container .design {
     grid-row: 2/3;
@@ -147,14 +147,17 @@
     max-width: 21.8rem;
     max-height: 21.8rem;
   }
-  section h2 {
+  div h2 {
     max-width: 21.8rem;
     max-height: 21.8rem;
     margin-top: 1rem;
     padding: 2rem 3rem 7rem 1rem;
   }
-  .main-footer {
-    padding: 0 6rem;
+  .main-footer img {
+    margin-left: 6rem;
+  }
+  .main-footer .footer-btn {
+    margin-right: 6rem;
   }
 }
 button {
