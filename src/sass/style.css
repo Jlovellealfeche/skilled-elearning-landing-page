@@ -99,6 +99,7 @@
   }
   #main-img {
     position: absolute;
+    translate: 10rem -1rem;
     left: 19rem;
     bottom: 10rem;
     z-index: -1;
