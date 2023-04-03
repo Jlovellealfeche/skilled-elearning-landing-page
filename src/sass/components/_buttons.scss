@@ -29,3 +29,10 @@ button {
     color: a.$primary-white;
     background-image: linear-gradient(a.$gradientcolor-blue, a.$gradientcolor-darkpink);
 }
+
+.nav-btn:active,
+.banner-btn:active,
+.footer-btn:active {
+    background-color: a.$primary-white 30%;
+    opacity: 0.8;
+}

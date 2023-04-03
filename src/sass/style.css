@@ -11,6 +11,9 @@
   .top-nav {
     padding: 1.5rem 1rem;
   }
+  .top-nav .nav-btn {
+    margin-right: 2.5rem;
+  }
   .banner-wrapper {
     display: grid;
     grid-template-columns: 24rem auto;
@@ -42,15 +45,16 @@
   .banner {
     position: absolute;
     width: 640.71px;
-    translate: 22rem -8rem;
+    left: 35rem;
+    bottom: 14rem;
   }
   .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6rem 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
   }
-  .section-container div h2,
+  .section-container .ad-text,
   .section-container .animation {
     grid-row: 2/3;
   }
@@ -68,12 +72,14 @@
     margin-top: 1.2rem;
     padding: 3.5rem 1.3rem 8.5rem;
   }
+  .ad-text,
   .animation,
   .design,
   .photography,
   .crypto,
   .business {
     margin: 1rem auto;
+    max-width: 385px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -91,8 +97,8 @@
   }
   .banner {
     position: absolute;
-    width: 640.71px;
-    translate: 33rem -10rem;
+    left: 60rem;
+    bottom: 23rem;
   }
   .banner-text {
     max-height: 28rem;
@@ -128,7 +134,7 @@
     grid-gap: 2rem;
     padding: 3.75rem 5rem;
   }
-  .section-container div.ad-text,
+  .section-container .ad-text,
   .section-container .animation,
   .section-container .design {
     grid-row: 2/3;
@@ -157,7 +163,7 @@
     margin-left: 6rem;
   }
   .main-footer .footer-btn {
-    margin-right: 6rem;
+    margin-right: 8rem;
   }
 }
 button {
@@ -188,6 +194,13 @@ button {
 .footer-btn {
   color: hsl(0, 0%, 100%);
   background-image: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+}
+
+.nav-btn:active,
+.banner-btn:active,
+.footer-btn:active {
+  background-color: hsl(0, 0%, 100%) 30%;
+  opacity: 0.8;
 }
 
 .top-nav {

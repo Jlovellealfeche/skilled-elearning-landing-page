@@ -8,6 +8,9 @@
    
     .top-nav {
         padding: 1.5rem 1rem;
+        .nav-btn {
+            margin-right: 2.5rem;
+        }
     }
 
     .banner-wrapper{
@@ -45,16 +48,18 @@
         
         position: absolute;
         width: 640.71px;
-        translate: 22rem -8rem;
+        //translate: 22rem -8rem;
+        left: 35rem;
+        bottom: 14rem;
     }
 
     .section-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 6rem 1fr 1fr 1fr;
-        grid-gap: 1.5rem;
+        grid-gap: 1rem;
         
-        div h2,
+        .ad-text,
         .animation {
             grid-row: 2 / 3;
 
@@ -78,12 +83,14 @@
         padding: 3.5rem 1.3rem 8.5rem;
       }
     
+    .ad-text,
     .animation,
     .design,
     .photography,
     .crypto,
     .business {
         margin: 1rem auto;
+        max-width: 385px;
     }
 
 
@@ -106,8 +113,9 @@
 
     .banner {
         position: absolute;
-        width: 640.71px;
-        translate: 33rem -10rem;
+        //translate: 33rem -10rem;
+        left: 60rem;
+        bottom: 23rem;
         }
     .banner-text {
         max-height: 28rem;
@@ -145,7 +153,7 @@
         grid-gap: 2rem;
         padding: 3.75rem 5rem;
         
-        div.ad-text,
+        .ad-text,
         .animation, 
         .design {
             grid-row: 2 / 3;
@@ -179,7 +187,7 @@
             margin-left: 6rem;
         }
        .footer-btn {
-        margin-right: 6rem;
+        margin-right: 8rem;
        }
     }
 }
