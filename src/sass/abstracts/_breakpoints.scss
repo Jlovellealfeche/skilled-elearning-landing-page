@@ -54,7 +54,7 @@
         grid-template-rows: 6rem 1fr 1fr 1fr;
         grid-gap: 1.5rem;
         
-        div.ad-text,
+        section h2,
         .animation {
             grid-row: 2 / 3;
 
@@ -71,7 +71,7 @@
         }
     }
 
-    div h2 {
+    section h2 {
         max-width: 21rem;
         max-height: 17rem;
         margin-top: 1.2rem;
@@ -147,7 +147,7 @@
 
         di
         
-        div.ad-text,
+        section.ad-text,
         .animation, 
         .design {
             grid-row: 2 / 3;
@@ -170,7 +170,7 @@
        }
     }
 
-    div h2 {
+    section h2 {
         max-width: 21.8rem;
         max-height: 21.8rem;
         margin-top: 1rem;
