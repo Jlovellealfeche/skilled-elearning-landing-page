@@ -11,6 +11,9 @@
   .top-nav {
     padding: 1.5rem 1rem;
   }
+  .top-nav .nav-btn {
+    margin-right: 2.5rem;
+  }
   .banner-wrapper {
     display: grid;
     grid-template-columns: 24rem auto;
@@ -42,15 +45,17 @@
   .banner {
     position: absolute;
     width: 640.71px;
-    translate: 22rem -8rem;
+    left: 35rem;
+    bottom: 14rem;
+    overflow: hidden;
   }
   .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6rem 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
   }
-  .section-container div.ad-text,
+  .section-container .ad-text,
   .section-container .animation {
     grid-row: 2/3;
   }
@@ -68,15 +73,21 @@
     margin-top: 1.2rem;
     padding: 3.5rem 1.3rem 8.5rem;
   }
+  .ad-text,
   .animation,
   .design,
   .photography,
   .crypto,
   .business {
-    margin: 1rem auto;
+    margin: 1rem 1rem;
+    max-width: 385px;
   }
 }
 @media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 960px;
+    overflow: hidden;
+  }
   .top-nav {
     margin: 1rem 3rem;
     padding-right: 6rem;
@@ -87,12 +98,15 @@
     display: grid;
     grid-template-columns: 24rem auto;
     grid-template-rows: 7rem 7rem 7rem;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
+    overflow-x: hidden;
   }
-  .banner {
+  #main-img {
     position: absolute;
-    width: 640.71px;
-    translate: 33rem -10rem;
+    translate: 10rem -1rem;
+    left: 19rem;
+    bottom: 10rem;
+    z-index: -1;
   }
   .banner-text {
     max-height: 28rem;
@@ -119,6 +133,7 @@
   }
   main {
     padding: 0;
+    overflow-x: hidden;
   }
   .section-container {
     display: grid;
@@ -127,7 +142,7 @@
     grid-gap: 2rem;
     padding: 3.75rem 5rem;
   }
-  .section-container div.ad-text,
+  .section-container .ad-text,
   .section-container .animation,
   .section-container .design {
     grid-row: 2/3;
@@ -150,12 +165,75 @@
     max-width: 21.8rem;
     max-height: 21.8rem;
     margin-top: 1rem;
-    padding: 3.5rem 1.3rem 8.5rem;
+    padding: 2rem 3rem 7rem 1rem;
   }
-  .main-footer {
-    padding: 0 6rem;
+  .main-footer img {
+    margin-left: 6rem;
+  }
+  .main-footer .footer-btn {
+    margin-right: 8rem;
   }
 }
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
 button {
   border: none;
   border-radius: 2rem;
@@ -184,6 +262,13 @@ button {
 .footer-btn {
   color: hsl(0, 0%, 100%);
   background-image: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+}
+
+.nav-btn:active,
+.banner-btn:active,
+.footer-btn:active {
+  background-color: hsl(0, 0%, 100%) 30%;
+  opacity: 0.8;
 }
 
 .top-nav {
@@ -217,6 +302,7 @@ body {
   background-image: linear-gradient(hsl(0, 0%, 100%), hsl(232, 88%, 97%));
   overflow-x: hidden;
 }
+
 body p {
   color: hsl(232, 10%, 56%);
   padding: 1rem 0;
@@ -254,4 +340,4 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
-}
+} 
