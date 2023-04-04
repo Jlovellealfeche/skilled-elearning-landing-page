@@ -99,8 +99,7 @@
 
 @media screen and (min-width: 1024px) {
     .wrapper {
-        max-width: 960px;
-        overflow: hidden;
+               overflow: hidden;
     }
 
     .top-nav {
@@ -120,7 +119,7 @@
 
     #main-img {
        position: absolute;
-        //max-width: 50%;
+        max-width: 50%;
         translate: 10rem -1rem;
         left: 19rem;
         bottom: 10rem;
@@ -158,9 +157,12 @@
     }
     .section-container {
         display: grid;
+        
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 6rem 1fr 1fr;
         grid-gap: 2rem;
+        place-items: center;
+
         padding: 3.75rem 5rem;
         
         .ad-text,

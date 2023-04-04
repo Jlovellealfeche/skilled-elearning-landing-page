@@ -7,9 +7,7 @@
     padding: unset;
 }
 
-.wrapper {
-    max-width: 960px;
-}
+
 
 body {
     font-family: a.$fontfamily-plusjakartasans;
@@ -55,4 +53,9 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
+}
+
+.banner-wrapper,
+.section-container {
+    max-width: 960px;
 }

@@ -85,7 +85,6 @@
 }
 @media screen and (min-width: 1024px) {
   .wrapper {
-    max-width: 960px;
     overflow: hidden;
   }
   .top-nav {
@@ -103,6 +102,7 @@
   }
   #main-img {
     position: absolute;
+    max-width: 50%;
     translate: 10rem -1rem;
     left: 19rem;
     bottom: 10rem;
@@ -140,6 +140,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 6rem 1fr 1fr;
     grid-gap: 2rem;
+    place-items: center;
     padding: 3.75rem 5rem;
   }
   .section-container .ad-text,
@@ -296,10 +297,6 @@ p {
   padding: unset;
 }
 
-.wrapper {
-  max-width: 960px;
-}
-
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
@@ -344,4 +341,9 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+}
+
+.banner-wrapper,
+.section-container {
+  max-width: 960px;
 } 
