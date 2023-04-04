@@ -296,6 +296,10 @@ p {
   padding: unset;
 }
 
+.wrapper {
+  max-width: 960px;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
